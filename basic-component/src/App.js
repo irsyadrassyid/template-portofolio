@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import CompClass from './BasicComponent/CompClass';
-import CompFunc from './BasicComponent/CompFunc';
+import Nav from './Component/Nav';
+import PageContent from './Component/PageContent';
+import'./assets/css/styles.css'
+
+
 
 function App() {
   return (
     <div className="App">
-      <CompClass />
-      <CompFunc />
+      <Nav />
+      <PageContent />
     </div>
   );
 }
